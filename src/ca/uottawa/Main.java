@@ -6,12 +6,12 @@ import ch.idsia.tools.MarioAIOptions;
 public class Main {
 
     public static void main(String[] args) {
-      ForwardAgent agent = new ForwardAgent();
+      TestAgent agent = new TestAgent();
 
       MarioAIOptions options= new MarioAIOptions();
 
       options.setLevelDifficulty(1);
-      options.setLevelRandSeed(100);
+      options.setLevelRandSeed(1);
       options.setAgent(agent);
 
       BasicTask task = new BasicTask(options);
