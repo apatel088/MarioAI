@@ -15,7 +15,7 @@ public class Main {
       MarioAIOptions options= new MarioAIOptions();
 
       options.setLevelDifficulty(0);
-      options.setLevelRandSeed(4);
+      options.setLevelRandSeed(43);
       options.setFrozenCreatures(false);
       //options.setFlatLevel(true);
       options.setLevelType(0);
